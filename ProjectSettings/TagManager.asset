@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - CinemachineTargat
+  - TrackingObject
+  - Item
   layers:
   - Default
   - TransparentFX

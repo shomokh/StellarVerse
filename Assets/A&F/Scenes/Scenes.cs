@@ -9,7 +9,7 @@ public class Scenes : MonoBehaviour
     public void GamePlay()
     {
 
-        SceneManager.LoadScene("GamePlay");
+        SceneManager.LoadScene("SampleScene");
 
 
     }
@@ -21,11 +21,16 @@ public class Scenes : MonoBehaviour
 
     public void Overview()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Overview");
     }
 
     public void UI3()
     {
         SceneManager.LoadScene("UI3");
     }
+
+    /*public void SampleScene()
+    {
+        SceneManager.LoadScene("SampleScene");
+    }*/
 }

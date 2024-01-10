@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using UnityEngine.Windows;
 
 public class PlayerController : MonoBehaviour
@@ -111,6 +112,13 @@ public class PlayerController : MonoBehaviour
         {
             inventory.AddItem(item);
         }
+    }
+
+    public void OnEnd(InputAction.CallbackContext context)
+    {
+        
+            SceneManager.LoadScene("Overview");
+        
     }
     public void FixedUpdate()
     {
